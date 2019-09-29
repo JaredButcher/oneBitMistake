@@ -1,5 +1,5 @@
-.vscode
-onebit_Implmnt
+.vscode/
+onebit_Implmnt/
 *.project
 *.prj
 *.xcf
