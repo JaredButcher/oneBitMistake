@@ -1,2 +1,0 @@
-OUTPUT o_UART_TX 	 location (13, 15, 1) 	 74 	 
-INPUT  i_Clk 	 location (0, 8, 1) 	 15 	 
