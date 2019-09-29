@@ -1,0 +1,11 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\c_hdl.exe  -osyn  C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\onebit_Implmnt\synwork\onebit_comp.srs  -hdllog  C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\onebit_Implmnt\synlog\onebit_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\onebit_Implmnt\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartTx.vhd -lib work C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd -lib work C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartRx.vhd -lib work C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd -lib work C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd 
+rc:0 success:1 runtime:7
+file:C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\onebit_Implmnt\synwork\onebit_comp.srs|io:o|time:1569734358|size:4705|exec:0
+file:C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\onebit_Implmnt\synlog\onebit_compiler.srr|io:o|time:1569734358|size:7572|exec:0
+file:C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartTx.vhd|io:i|time:1569692344|size:2526|exec:0
+file:C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd|io:i|time:1569734306|size:3359|exec:0
+file:C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartRx.vhd|io:i|time:1569686832|size:2650|exec:0
+file:C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd|io:i|time:1569733399|size:1202|exec:0
+file:C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd|io:i|time:1569734347|size:2769|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\c_hdl.exe|io:i|time:1539020486|size:1338368|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\c_hdl.exe|io:i|time:1539020488|size:1754112|exec:1

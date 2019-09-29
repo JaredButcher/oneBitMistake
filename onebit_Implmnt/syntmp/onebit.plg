@@ -1,0 +1,12 @@
+@P:  Worst Slack : -1.176
+@P:  corePackage|i_Clk - Estimated Frequency : 127.6 MHz
+@P:  corePackage|i_Clk - Requested Frequency : 150.1 MHz
+@P:  corePackage|i_Clk - Estimated Period : 7.840
+@P:  corePackage|i_Clk - Requested Period : 6.664
+@P:  corePackage|i_Clk - Slack : -1.176
+@P: corePackage Part : ice40hx1kvq100
+@P: corePackage I/O primitives : 2
+@P: corePackage I/O Register bits : 0
+@P: corePackage Register bits (Non I/O) : 14 (1%)
+@P: corePackage Total Luts : 34 (2%)
+@P:  CPU Time : 0h:00m:01s

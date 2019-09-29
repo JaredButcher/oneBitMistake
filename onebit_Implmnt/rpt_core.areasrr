@@ -1,0 +1,126 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KVQ100 (Lattice)
+
+--------------------------------------------------------------------
+########   Utilization report for  Top level view:   core   ########
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     49                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block core:	49 (28.65 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       89                 100 %                
+CARRYS     18                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block core:	107 (62.57 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     4                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block core:	4 (2.34 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     3                  100 %                
+=================================================
+Total IO PADS in the block core:	3 (1.75 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   ram   ########
+Instance path:   core.ram                                
+=========================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     4                  4.49 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block core.ram:	4 (2.34 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     4                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block core.ram:	4 (2.34 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   uartRx   ########
+Instance path:   core.uartRx                                
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     14                 28.6 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block core.uartRx:	14 (8.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       34                 38.2 %               
+CARRYS     7                  38.9 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block core.uartRx:	41 (23.98 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   uartTx   ########
+Instance path:   core.uartTx                                
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     18                 36.7 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block core.uartTx:	18 (10.53 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     36                 40.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block core.uartTx:	36 (21.05 % Utilization)
+
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 4
+
+ramInst.rramvalues_rramvalues_1_1
+----------------------------
+----------------------------
+
+ramInst.rramvalues_rramvalues_1_0
+----------------------------
+----------------------------
+
+ramInst.rramvalues_rramvalues_0_1
+----------------------------
+----------------------------
+
+ramInst.rramvalues_rramvalues_0_0
+----------------------------
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,44 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\lscc\\iCEcube2.2017.08\\sbt_backend\\Projects\\onebit\\onebit_Implmnt\\synwork\\onebit_comp.srs|-autotop|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\bin64\\c_vhdl.exe":1539020488
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\location.map":1539020492
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\std.vhd":1539020492
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1539020492
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\std1164.vhd":1539020492
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\numeric.vhd":1539020492
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\umr_capim.vhd":1539020492
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\arith.vhd":1539020492
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\unsigned.vhd":1539020492
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\hyperents.vhd":1539020492
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\sbt_backend\\Projects\\onebit\\uartTx.vhd":1569692344
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\sbt_backend\\Projects\\onebit\\core.vhd":1569734306
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\sbt_backend\\Projects\\onebit\\uartRx.vhd":1569686832
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\sbt_backend\\Projects\\onebit\\ram.vhd":1569733399
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\sbt_backend\\Projects\\onebit\\package.vhd":1569734347
+0			"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartTx.vhd" vhdl
+1			"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd" vhdl
+2			"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartRx.vhd" vhdl
+3			"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd" vhdl
+4			"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 1 3 2 0
+#Dependency Lists(Users Of)
+0 4
+1 4
+2 4
+3 4
+4 -1
+#Design Unit to File Association
+module work corepackage 4
+arch work corepackage rtc 4
+module work ram 3
+arch work ram rtc 3
+module work uartrx 2
+arch work uartrx rtc 2
+module work core 1
+arch work core rtc 1
+module work uarttx 0
+arch work uarttx rtc 0

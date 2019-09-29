@@ -1,0 +1,12 @@
+[VIC]
+uartTxInst.N_20_cascade_=ltout:in0
+uartTxInst.N_8_i_cascade_=ltout:in0
+uartTxInst.SUM_N_3_mux_cascade_=ltout:in1
+uartTxInst.SUM_i_o2_d_1_cascade_=ltout:in1
+uartTxInst.rClkCount_RNO_0Z0Z_6_cascade_=ltout:in0
+uartTxInst.rTxState_10_0_i_a2_0_1_0_cascade_=ltout:in1
+uartTxInst.rTxState_10_0_x2_0_o2_1_0_1_cascade_=ltout:in0
+uartTxInst.un2_rclkcount_4_cascade_=ltout:in0
+uartTxInst.un2_rclkcount_5_cascade_=ltout:in0
+uartTxInst.un5_rclkcount_ac0_11_cascade_=ltout:in3
+uartTxInst.un5_rclkcount_c4_cascade_=ltout:in3

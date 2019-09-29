@@ -1,0 +1,23 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":5:7:5:17|Top entity is set to corePackage.
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":5:7:5:17|Synthesizing work.corepackage.rtc.
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":5:7:5:10|Synthesizing work.core.rtc.
+@N: CD233 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":21:16:21:17|Using sequential encoding for type tphase.
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd":5:7:5:9|Synthesizing work.ram.rtc.
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartRx.vhd":4:7:4:12|Synthesizing work.uartrx.rtc.
+@N: CD233 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartRx.vhd":19:13:19:14|Using sequential encoding for type tstate.
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartTx.vhd":5:7:5:12|Synthesizing work.uarttx.rtc.
+@N: CD233 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartTx.vhd":19:18:19:19|Using sequential encoding for type ttxstate.
+@N: CL201 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartTx.vhd":29:8:29:9|Trying to extract state machine for register rTxState.
+@N: CL201 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartRx.vhd":36:2:36:3|Trying to extract state machine for register rState.
+@N: CL134 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd":31:8:31:9|Found RAM rRamValues, depth=8192, width=1
+@N: CL134 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd":31:8:31:9|Found RAM rRamValues, depth=8192, width=1
+@N: CL201 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":41:8:41:9|Trying to extract state machine for register rPhase.
+@N: CL159 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":12:8:12:17|Input iInterrupt is unused.
+@N: CL159 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":8:8:8:16|Input i_UART_RX is unused.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":5:7:5:17|Selected library: work cell: corePackage view rtc as top level
+@N: NF107 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":5:7:5:17|Selected library: work cell: corePackage view rtc as top level
+

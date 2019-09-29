@@ -1,0 +1,34 @@
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":5:7:5:17|Synthesizing work.corepackage.rtc.
+@W: CD638 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":15:11:15:17|Signal rtxbyte is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":17:11:17:15|Signal rtxdv is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":24:11:24:16|Signal rreset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":25:11:25:20|Signal rinterrupt is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":5:7:5:10|Synthesizing work.core.rtc.
+@N: CD233 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":21:16:21:17|Using sequential encoding for type tphase.
+@W: CD648 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":73:51:73:58|Expression does not match type std_logic_vector
+@W: CD638 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":31:11:31:16|Signal rcarry is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.core.rtc
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd":5:7:5:9|Synthesizing work.ram.rtc.
+Post processing for work.ram.rtc
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartRx.vhd":4:7:4:12|Synthesizing work.uartrx.rtc.
+@N: CD233 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartRx.vhd":19:13:19:14|Using sequential encoding for type tstate.
+Post processing for work.uartrx.rtc
+@N: CD630 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartTx.vhd":5:7:5:12|Synthesizing work.uarttx.rtc.
+@N: CD233 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartTx.vhd":19:18:19:19|Using sequential encoding for type ttxstate.
+Post processing for work.uarttx.rtc
+Post processing for work.corepackage.rtc
+@W: CL169 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":73:8:73:9|Pruning unused register rRamWriteCounter_5(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":73:8:73:9|Pruning unused register rRamWriteData_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":73:8:73:9|Pruning unused register rRamAddress_4(15 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":73:8:73:9|Pruning unused register rWriting_6. Make sure that there are no unused intermediate registers.
+@W: CL168 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":58:22:58:30|Removing instance coreInst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":48:21:48:28|Removing instance ramInst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":39:24:39:34|Removing instance uartRxInst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CL201 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartTx.vhd":29:8:29:9|Trying to extract state machine for register rTxState.
+@N: CL201 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\uartRx.vhd":36:2:36:3|Trying to extract state machine for register rState.
+@N: CL134 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd":31:8:31:9|Found RAM rRamValues, depth=8192, width=1
+@N: CL134 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd":31:8:31:9|Found RAM rRamValues, depth=8192, width=1
+@W: CL246 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\ram.vhd":11:8:11:15|Input port bits 15 to 14 of iaddress(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":41:8:41:9|Trying to extract state machine for register rPhase.
+@N: CL159 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\core.vhd":12:8:12:17|Input iInterrupt is unused.
+@N: CL159 :"C:\lscc\iCEcube2.2017.08\sbt_backend\Projects\onebit\package.vhd":8:8:8:16|Input i_UART_RX is unused.
